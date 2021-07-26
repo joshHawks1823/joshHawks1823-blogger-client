@@ -1,8 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+/* Global */
 body {
   font-family: 'Roboto', sans-serif;
   background: #e6e6e6;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+.nav-link:hover {
+  color: #ffa07a !important;
+}
+
+/* Navbar */
+nav {
+  background: #214056;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  color: #ffa07a;
+  font-size: 1.8rem;
+}
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #ffa07a;
+  border: none;
+  padding: 10px 6px;
+  outline: transparent;
+}
+.navbar-toggler span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border: 1px;
+  background: #fff;
+}
+.navbar-toggler span + span {
+  margin-top: 4px;
+  width: 18px;
+  margin-left: 4px;
+}
+.navbar-toggler span + span + span {
+  width: 10px;
+  margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 1.1rem;
+  padding: 1rem 0 0;
+}
 /* Create Post*/
+
+.btn {
+  background: #214056 !important;
+}
+
+.btn:hover {
+  background: #ffa07a !important;
+}

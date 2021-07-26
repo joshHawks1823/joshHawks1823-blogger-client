@@ -1,9 +1,12 @@
 import React from 'react';
+import Nav from './Nav';
 
 const App = () => {
   return (
     <div className='container p-5'>
-      <h1>Blogger Crud yay</h1>
+      <Nav />
+      <br />
+      <h1 className='mt-5'>Blogger Crud yay</h1>
     </div>
   );
 };
