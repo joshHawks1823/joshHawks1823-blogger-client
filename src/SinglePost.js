@@ -10,7 +10,7 @@ const SinglePost = (props) => {
       .get(`${process.env.REACT_APP_API}/post/${props.match.params.slug}`)
       .then((response) => setPost(response.data))
       .catch((err) => alert('Error loading single post'));
-  });
+  }, [props.match.params.slug]);
   return (
     <div className='container-fluid p-5'>
       <Nav />
@@ -30,6 +30,8 @@ const SinglePost = (props) => {
       </div>
     </div>
   );
-};
+}
+  
+
 
 export default SinglePost;
