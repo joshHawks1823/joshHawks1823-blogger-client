@@ -18,7 +18,7 @@ const SinglePost = (props) => {
       <div className='container mt-5'>
         <br />
         <h2>{post.title}</h2>
-        <hr style={{ width: '50%', marginRight: 'auto' }} />
+        <hr style={{ width: '30%', marginRight: 'auto' }} />
         <p className='lead mt-1'>{post.content}</p>
         <p>
           Author <span className='badge bg-secondary'>{post.user}</span>{' '}
