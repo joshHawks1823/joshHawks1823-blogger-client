@@ -64,10 +64,10 @@ ul {
 }
 /* Create Post*/
 
-.btn {
+.d-grid .btn {
   background: #214056 !important;
 }
 
-.btn:hover {
+.d-grid .btn:hover {
   background: #ffa07a !important;
 }
